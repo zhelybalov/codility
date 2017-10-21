@@ -22,7 +22,7 @@ We can split this tape in four places:
 
 Write a function:
 ```c
-int solution(int A[], int N);
+int solution(std::vector<int> &A);
 ```
 that, given a non-empty zero-indexed array `A` of `N` integers, returns the minimal difference that can be achieved.
 
