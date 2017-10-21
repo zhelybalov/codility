@@ -13,7 +13,7 @@ assert 2 == solution([ 1 ])
 assert 1 == solution([ 2 ])
 assert 4 == solution([ 2, 3, 1, 5 ])
 
-MaxArrSize = 100000; # by the task
+MaxArrSize = 100000 # by the task
 stressTestArr = []
 for i in range(MaxArrSize):
     stressTestArr.append(i + 1)
